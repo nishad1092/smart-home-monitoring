@@ -16,7 +16,7 @@ spec:
         - name: flask-api
           image: nishad1092/smart_home_monitoring:latest
           ports:
-            - containerPort: 5000
+            - containerPort: 5001
 ---
 apiVersion: v1
 kind: Service
@@ -27,7 +27,7 @@ spec:
     app: flask-api
   ports:
     - port: 80
-      targetPort: 5000
+      targetPort: 5001
   type: LoadBalancer
 ---
 apiVersion: apps/v1
