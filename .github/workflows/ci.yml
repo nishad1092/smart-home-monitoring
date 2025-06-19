@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: nishad1092/sensor-api:latest
+          tags: username/smart_home_monitoring:latest
