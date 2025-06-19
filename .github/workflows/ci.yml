@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: username/sensor-api:latest
+          tags: nishad1092/sensor-api:latest
