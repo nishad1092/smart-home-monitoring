@@ -66,4 +66,4 @@ spec:
     - port: 80
       targetPort: 3000
       protocol: TCP
-  type: ClusterIP  # Use Ingress for access OR change to NodePort if needed
+  type: NodePort  # Use Ingress for access OR change to NodePort if needed
